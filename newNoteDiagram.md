@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 Browser->>Server: POST https://studies.cs.helsinki.fi/exampleapp/notes/new_note
 Server-->>Browser: Response code 302 (redirect to https://studies.cs.helsinki.fi/exampleapp/notes)
